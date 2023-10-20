@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.section{
+    width: 40vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+h1{
+    color:white;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.frm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.frm input{
+    width: 70%;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.formpart, .listpart{
+    width: 100%;
+    margin-block: 10px;
+}
+
+.lis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-block: 2px;
+    font-size: 18px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btns button, .frm button{
+   margin-left: 5px;
+   font-size: 16px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius: 5px;
+   border: 2px solid white;
+   padding: 5px;
+}
+.frm button {
+    width: 30%;
+    padding-block: 5px;
+    background-color: blue;
+    color:white;
+}
